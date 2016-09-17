@@ -1,0 +1,936 @@
+fileFormatVersion: 2
+guid: 21a9a871a75990049867a8a637b01f7e
+timeCreated: 1471610920
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AntebracoDireito
+    100002: AntebracoEsquerdo
+    100004: AntepernaDireita
+    100006: AntepernaEsquerda
+    100008: Armature
+    100010: Barriga
+    100012: Bone.007
+    100014: Bone.008
+    100016: BracoDireito
+    100018: BracoEsquerdo
+    100020: Cabeca
+    100022: Cabeca_end
+    100024: Camera.001
+    100026: Coluna2
+    100028: Hemi
+    100030: Hemi.001
+    100032: MaoDireita
+    100034: MaoDireita_end
+    100036: MaoEsquerda
+    100038: MaoEsquerda_end
+    100040: OmbroDireito
+    100042: OmbroEsquerdo
+    100044: PeDireito
+    100046: PeDireito_end
+    100048: PeEsquerdo
+    100050: PeEsquerdo_end
+    100052: PernaDireita
+    100054: PernaEsquerda
+    100056: Personagem
+    100058: //RootNode
+    400000: AntebracoDireito
+    400002: AntebracoEsquerdo
+    400004: AntepernaDireita
+    400006: AntepernaEsquerda
+    400008: Armature
+    400010: Barriga
+    400012: Bone.007
+    400014: Bone.008
+    400016: BracoDireito
+    400018: BracoEsquerdo
+    400020: Cabeca
+    400022: Cabeca_end
+    400024: Camera.001
+    400026: Coluna2
+    400028: Hemi
+    400030: Hemi.001
+    400032: MaoDireita
+    400034: MaoDireita_end
+    400036: MaoEsquerda
+    400038: MaoEsquerda_end
+    400040: OmbroDireito
+    400042: OmbroEsquerdo
+    400044: PeDireito
+    400046: PeDireito_end
+    400048: PeEsquerdo
+    400050: PeEsquerdo_end
+    400052: PernaDireita
+    400054: PernaEsquerda
+    400056: Personagem
+    400058: //RootNode
+    4300000: Personagem
+    7400000: Caminhada
+    7400002: Camera.001|Action
+    7400004: Camera.001|Caminhada
+    7400006: Armature|Action
+    7400008: Atacar
+    7400010: Armature|Caminhada
+    7400012: Caminhar
+    7400014: Personagem|Action
+    7400016: Personagem|Ataque
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Personagem
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Caminhada
+      takeName: Caminhada
+      firstFrame: 0
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera.001|Action
+      takeName: Camera.001|Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Camera.001|Caminhada
+      takeName: Camera.001|Caminhada
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Action
+      takeName: Armature|Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Atacar
+      takeName: Armature|Ataque
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Caminhada
+      takeName: Armature|Caminhada
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Caminhar
+      takeName: Armature|CaminhadaExtra
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Personagem|Action
+      takeName: Personagem|Action
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Personagem|Ataque
+      takeName: Personagem|Ataque
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Barriga
+        weight: 1
+      - path: Armature/Barriga/Coluna2
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.007/PernaDireita/AntepernaDireita/PeDireito/PeDireito_end
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo
+        weight: 1
+      - path: Armature/Barriga/Coluna2/Bone.008/PernaEsquerda/AntepernaEsquerda/PeEsquerdo/PeEsquerdo_end
+        weight: 1
+      - path: Armature/Cabeca
+        weight: 1
+      - path: Armature/Cabeca/Cabeca_end
+        weight: 1
+      - path: Armature/OmbroDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita
+        weight: 1
+      - path: Armature/OmbroDireito/BracoDireito/AntebracoDireito/MaoDireita/MaoDireita_end
+        weight: 1
+      - path: Armature/OmbroEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda
+        weight: 1
+      - path: Armature/OmbroEsquerdo/BracoEsquerdo/AntebracoEsquerdo/MaoEsquerda/MaoEsquerda_end
+        weight: 1
+      - path: Camera.001
+        weight: 1
+      - path: Hemi
+        weight: 1
+      - path: Hemi.001
+        weight: 1
+      - path: Personagem
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
