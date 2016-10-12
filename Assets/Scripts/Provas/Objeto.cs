@@ -35,49 +35,69 @@ public class Objeto : MonoBehaviour
          KeyCode.Alpha9,
      };
 
+    // Atributos do personagem.
+    private GameObject personagem;
+    private Pontuacao pontuacaoPersonagem;
 
     void Start()
     {
         rigidBody = GetComponent<Rigidbody>();
 
         respostaDaEquacao = -1;
+        respostaDaEquacaoCorreta = -1;
 
-        // Gera uma equação.
+        // Gerador de equações.
         geradorDeEquacoes = new GeradorDeEquacoes();
-        geradorDeEquacoes.startGame(1);
-        respostaDaEquacaoCorreta = geradorDeEquacoes.responseSolution;
-        equacaoString = geradorDeEquacoes.equationString;
-        textEquacao.text = equacaoString;
+
+        // Chama a classe de score do personagem.
+        personagem = GameObject.Find("Personagem");
+        pontuacaoPersonagem = personagem.GetComponent<Pontuacao>();
     }
 
     void Update()
     {
         rigidBody.isKinematic = true;
+
+        if (respostaDaEquacaoCorreta == -1)
+        {
+            // Gera a equação.
+            geradorDeEquacoes.startGame(1);
+            respostaDaEquacaoCorreta = geradorDeEquacoes.responseSolution;
+            equacaoString = geradorDeEquacoes.equationString;
+            textEquacao.text = equacaoString;
+        }
     }
     
     void OnCollisionStay(Collision col)
     {
         if (col.gameObject.name == "Personagem")
         {
-            // Guarda o valor respondido.
-            for (int i = 0; i < keyCodes.Length; i++)
+            // Caso ainda não tenha respondido.
+            if (respostaDaEquacao == -1)
             {
-                if (Input.GetKeyDown(keyCodes[i]))
+                // Percorre as teclas para checar qual foi escolhida.
+                for (int i = 0; i < keyCodes.Length; i++)
                 {
-                    respostaDaEquacao = i;
-                    // Verifica se a resposta foi correta.
-                    if (respostaDaEquacao == respostaDaEquacaoCorreta)
+                    if (Input.GetKeyDown(keyCodes[i]))
                     {
-                        respostaCorreta = true;
-                        textEquacao.color = Color.green;
-                    } else
-                    {
-                        respostaCorreta = false;
-                        textEquacao.color = Color.red;
+                        respostaDaEquacao = i;
+                        // Verifica se a resposta foi correta.
+                        if (respostaDaEquacao == respostaDaEquacaoCorreta)
+                        {
+                            respostaCorreta = true;
+                            textEquacao.color = Color.green;
+                            pontuacaoPersonagem.addAcerto();
+                        }
+                        else
+                        {
+                            respostaCorreta = false;
+                            textEquacao.color = Color.red;
+                            pontuacaoPersonagem.addErro();
+                        }
+                        // substitui a equação colocando a resposta.
+                        equacaoString = equacaoString.Replace("?", respostaDaEquacao + "");
+                        textEquacao.text = equacaoString;
                     }
-                    // substitui a equação colocando a resposta.
-                    equacaoString = equacaoString.Replace("?", respostaDaEquacao + "");
-                    textEquacao.text = equacaoString;
                 }
             }
         }

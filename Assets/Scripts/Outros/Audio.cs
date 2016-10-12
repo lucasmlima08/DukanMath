@@ -2,7 +2,7 @@
 using System.Collections;
 using Assets.Scripts;
 
-public class AudioGame : MonoBehaviour
+public class Audio : MonoBehaviour
 {
     public GameObject musicBackground;
 

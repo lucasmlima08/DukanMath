@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class EventMenu : MonoBehaviour {
+public class EventoMenu : MonoBehaviour {
 
     public GameObject effectClick;
 
