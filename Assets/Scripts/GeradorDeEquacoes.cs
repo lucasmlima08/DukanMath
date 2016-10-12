@@ -7,7 +7,7 @@ using System.Collections;
 
 namespace Assets.Scripts
 {
-    public class GenerateEquation
+    public class GeradorDeEquacoes
     {
         public String equationString = ""; // Formatação do cálculo na tela.
         public int[] optionsChoose = null; // Opções de escolha.
