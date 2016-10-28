@@ -91,7 +91,7 @@ public class Pontuacao : MonoBehaviour
         else // Respondeu e acertou alguma questão.
         {
             desempenho.setStringQuestoes("Você acertou " + respostasCertas + " questões de " + questoesRespondidas + " questões respondidas.");
-            desempenho.setStringDesempenho("Desempenho: " + ((respostasCertas * 100) / questoesRespondidas) + "% de acertos.");
+            desempenho.setStringDesempenho("Desempenho: " + string.Format("{0:#.##}", ((respostasCertas * 100) / questoesRespondidas)) + "% de acertos.");
         }
         Destroy(gameObject);
     }
